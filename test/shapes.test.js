@@ -1,6 +1,6 @@
 const Shape = require('../lib/shape');
 
-let testShape = [
+let testShapes = [
     {
         desc: 'should be an error if left empty',
         input: {},
@@ -36,7 +36,7 @@ let testShape = [
 ];
 
 describe('Shape test', () => {
-    for (let tc of testCases) {
+    for (let tc of testShapes) {
       it(tc.desc, () => {
         if (tc.shouldRender) {
           const shape = new Shape(tc.input);
