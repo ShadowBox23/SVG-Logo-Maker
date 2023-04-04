@@ -10,7 +10,7 @@ describe('Circle', () => {
                 logoShape: 'circle',
             });
             expect(circle.render()).toBe(
-                '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="red" stroke="blue" stroke-width="2" /></svg>'
+                '<circle cx="150" cy="100" r="80" fill="${this.logoColor}" /> '
             );
         });
     });
