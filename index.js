@@ -4,7 +4,7 @@ const fs = require('fs');
 
 const { generateSVG } = require('./lib/generateSVG');
 
-const { makeShape } = require('../lib/makeShape');
+const { makeShape } = require('./lib/makeShape');
 
 
 inquirer 
